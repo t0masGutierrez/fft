@@ -53,3 +53,6 @@ axs[1].set_xlim(0, f1 + f2)
 
 plt.tight_layout()
 plt.show()
+
+# save signal
+np.save("/Users/tgut03/github/fft/data/fftSignal.npy", fftSignal)
