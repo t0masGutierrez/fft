@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Conda environment
+*.conda
+*.env
+*.yml
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Logs and debug output
+*.log
+
+# Environment settings
+.env
+
+# Python egg and cache
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# GitHub workflows 
+!.github/
+
+# Ignore all hidden files except .gitignore
+.*
+!.gitignore
